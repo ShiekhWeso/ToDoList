@@ -6,17 +6,41 @@
     margin-top: 80px;
     text-align: center;
     padding: 50px 12px;
+    font-size: 0;
 }
 
 .txt{
     font-size: 25px;
     color: white;
+    margin-bottom: 8px;
 }
 
 .inpt{
-
+    width: 600px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #ffffff;
+    vertical-align: top;
 }
 
 .add-btn{
-    background: #989898;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #d8d8d8;
+    color: rgb(81, 81, 81);
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    transition: all 0.5s ease;
+    vertical-align: top;
+}
+
+.add-btn:hover{
+    background: rgb(166, 166, 166);
 }
