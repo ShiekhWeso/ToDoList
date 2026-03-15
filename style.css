@@ -1,0 +1,22 @@
+.container{
+    height: 10vh;
+    width: 80%;
+    background: #ff3737;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 12px;
+}
+
+.txt{
+    font-size: 25px;
+    color: white;
+}
+
+.inpt{
+
+}
+
+.add-btn{
+    background: #989898;
+}
