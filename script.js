@@ -2,21 +2,31 @@ var Add = document.getElementById("add")
 var Task = document.getElementById("task")
 var taskList = document.getElementById("taskList")
 
-Add.onclick = function input_validation(){
+Add.onclick = function() {
     // console.log(Task.value)
-    
+
     if (Task.value === ""){
         alert("You must write something!")
     }
     else{
         var taskText = Task.value;
         var li = document.createElement("li");
-        li.textContent = taskText;
+        var span = document.createElement("span");
+
+        li.appendChild(document.createTextNode(taskText));
+        span.textContent = "×";
+        span.classList.add("end-span");
+
+        span.onclick = function() {
+            this.parentElement.remove();
+        };
+
+        li.appendChild(span);
 
         if (taskList.children.length % 2 === 0) {
-            li.style.backgroundColor = "#eeeeee"; 
+            li.classList.add("even");
         } else {
-            li.style.backgroundColor = "#dddddd"; 
+            li.classList.add("odd");
         }
 
         taskList.appendChild(li);
