@@ -91,3 +91,34 @@
     background: #f44336;
     color: white;
 }
+
+.checked-task{
+    width: 1234px;
+    margin: auto;
+    margin-top: -16px;
+}
+
+#checkedtask{
+    list-style: none;
+    padding: 0;
+}
+
+#checkedtask li {
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    position: relative;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#checkedtask li:hover {
+    background: #bebebe;
+}
+
+.even {
+    background: #eeeeee;
+}
+
+.odd {
+    background: #dddddd;
+}
