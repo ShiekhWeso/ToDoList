@@ -9,7 +9,7 @@
     font-size: 0;
 }
 
-.txt {
+.txt1 {
     font-size: 25px;
     color: white;
     margin-bottom: 8px;
@@ -83,7 +83,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    padding: 12px 16px 12px 16px;
+    padding: 12px 15px 12px 15px;
     transition: 0.2s;
 }
 
@@ -92,10 +92,37 @@
     color: white;
 }
 
+.edit-span {
+    cursor: pointer;
+    color: rgb(81, 81, 81);
+    position: absolute;
+    right: 40px;
+    top: 0;
+    padding: 15px 12px 12px 12px;
+    transition: 0.2s;
+}
+
+.edit-span:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+.edit-input {
+    width: 80%;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+}
+
 .checked-task{
     width: 1234px;
     margin: auto;
-    margin-top: -16px;
+    margin-top: 140px;
+}
+
+.txt2{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 
 #checkedtask{
